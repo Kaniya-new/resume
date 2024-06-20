@@ -24,9 +24,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Container */
 .container {
     width: 100%;
-    max-width: 945px;
+    max-width: 1024px;
     margin: 0 auto; /* отступы верх,низ ,права, лево */
-    background-color: blue;
+    
 }
 /* intro */
 .intro {
