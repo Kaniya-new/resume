@@ -24,12 +24,18 @@ h1, h2, h3, h4, h5, h6 {
 /* Container */
 .container {
     width: 100%;
-    max-width: 2480px;
+    max-width: 945px;
     margin: 0 auto; /* отступы верх,низ ,права, лево */
 }
 /* intro */
 .intro {
-    width: 2555px;
-    height: 3583px;
-    background: rgb(173, 168, 168); 
+    display: flex;/*позволяет вращать блоки внутри контейнера*/
+    flex-direction: column;/*Обратите внимание, что flex-direction: column 
+    не выравнивает блоки по оси, перпендикулярной главной. 
+    Главная ось сама меняет своё расположение, и теперь направлена сверху вниз*/
+    justify-content: center; /*Флексы выравниваются по центру строки.*/
+    width: 100%;
+    height: 100vh; 
+    background: #fff; 
+    
 }
