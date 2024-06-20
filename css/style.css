@@ -41,6 +41,12 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 .left_form {
-    width: 30%;
+    width: 35%;
     background: #356;
+    margin: 0;
+
+}
+.foto {
+    margin: 0;
+    background: url(/magers/foto.png) center;
 }
